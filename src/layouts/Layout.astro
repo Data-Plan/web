@@ -1,0 +1,33 @@
+---
+import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+
+interface Props {
+    title?: string;
+    description?: string;
+}
+
+const {
+    title = "Data Plan — Track your mobile & Wi-Fi data usage",
+    description = "Data Plan tracks your mobile and Wi-Fi network usage — and warns you before you hit your limits.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <meta name="description" content={description} />
+        <link rel="canonical" href={Astro.url.href} />
+        <title>{title}</title>
+    </head>
+    <body
+        class="flex min-h-screen flex-col bg-linear-to-br from-sky-100 via-slate-50 to-indigo-100"
+    >
+        <slot />
+        <Footer />
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+	<defs>
+		<linearGradient id="sim" x1="50" y1="4" x2="50" y2="96" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#0a7cff" />
+			<stop offset="1" stop-color="#7b93fb" />
+		</linearGradient>
+	</defs>
+	<path
+		fill="url(#sim)"
+		d="M22 4h37.7a18 18 0 0 1 12.7 5.3l17.3 17.3A18 18 0 0 1 95 39.3V78a18 18 0 0 1-18 18H23a18 18 0 0 1-18-18V66a10 10 0 0 0 0-20V22A18 18 0 0 1 22 4Z"
+	/>
+	<g fill="#fcd88f">
+		<rect x="27" y="20" width="7" height="13" rx="3.5" />
+		<rect x="40" y="20" width="7" height="13" rx="3.5" />
+		<rect x="53" y="20" width="7" height="13" rx="3.5" />
+	</g>
+	<text
+		x="50"
+		y="76"
+		text-anchor="middle"
+		font-family="Helvetica, Arial, sans-serif"
+		font-size="42"
+		font-weight="bold"
+		fill="#f2f6ff"
+	>GB</text>
+</svg>
